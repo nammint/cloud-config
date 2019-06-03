@@ -4,16 +4,16 @@ hello: "Hello World!"
 
 spring:
   profiles: stage
- hello: "Staging Server"
+hello: "Staging Server"
  
 ---
 
 spring:
   profiles: dev
- hello: "Develop Server"
+hello: "Develop Server"
  
 ---
 
 spring:
   profiles: local
- hello: "Local Server"
+hello: "Local Server"
